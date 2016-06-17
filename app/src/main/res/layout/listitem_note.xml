@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/listitemNote_txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textStyle="bold"
+        tools:text="title"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:id="@+id/listitemNote_txt_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:ellipsize="end"
+        android:maxLines="4"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec nisl imperdiet, bibendum est ac, blandit libero. Duis convallis vulputate ullamcorper. Cras tortor nulla, congue ac ultricies euismod, laoreet sit amet lorem. Sed ac pretium ante. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vel urna pretium, fringilla mi ullamcorper, pretium tellus. Quisque volutpat vestibulum egestas. Curabitur rutrum ultricies nisi, scelerisque vestibulum tortor sodales id. Donec nec nunc accumsan, auctor elit sagittis, pulvinar tortor. Quisque efficitur nisi mauris, eget volutpat dolor luctus sed. Quisque non rhoncus nibh. Praesent ligula ligula, ultricies viverra mi vitae, molestie mattis nulla. Maecenas neque nulla, dictum non tincidunt non, eleifend at libero. Cras leo dui, tempus in tellus in, venenatis congue tellus. Morbi id enim in est tristique fermentum eu nec felis." />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#4fcecece"/>
+
+</LinearLayout>

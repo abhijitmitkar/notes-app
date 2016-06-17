@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Just Notes</string>
+    <string name="action_about">About</string>
+    <string name="action_save">Save</string>
+    <string name="validation_required">Required</string>
+    <string name="about_text">Developed by Abhijit using realm.io</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_share">Share</string>
+</resources>
